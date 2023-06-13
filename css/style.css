@@ -19,7 +19,7 @@ h1, h2 {text-align: center}
 
 h1 {background-color: #F4C430;
 
-	color: black;
+	color: black !important;
 	font-size: 5em;
 
 	padding-left: 0.5em; 
@@ -44,7 +44,7 @@ h2 {margin-bottom: 1em !important;
 	padding-bottom: 1em;
 	font-size: 3em;
 	font-weight: bold;
-	color: white !;
+	color: #FFFFFF !important;
 }
 
 p { font-size: 1.50em;
@@ -166,27 +166,22 @@ h4 {margin-left: 4.6em;
 }
 
 
-@media screen and (max-widht: 680px)  {
+@media screen and (max-widht: 768px)  {
 
-	body {width: 100% !important}
+	.container-fluid {float: none; 
+		padding: none;
+		width: 100%;
+		
 
-		 p {float: none; width: 100% !important; 
-		 	margin-right: none !important; 
-		 	font-size: 0.5em !important;
-
-		 }
+	}
 
 
-       h1 {background-color: #F4C430;
 
-	color: black;
-	margin-top: 0.50em !important;
 
-	border-radius: 1.2em !important;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-       }
 
-	
+	}
+
+
 	
 	}
       
