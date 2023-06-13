@@ -20,9 +20,9 @@ h1, h2 {text-align: center}
 h1 {background-color: #F4C430;
 
 	color: black;
-	font-size: 5em !important;
+	font-size: 5em;
 
-	padding-left: 0.5em !important; 
+	padding-left: 0.5em; 
 	padding-right: 0.5em !important;
 	padding-top: 0.5em !important;
 	padding-bottom: 0.5em !important;
@@ -41,18 +41,18 @@ h1 {background-color: #F4C430;
 h2 {margin-bottom: 1em !important;
 	margin-top: 1em;
 	padding-top: 1em;
-	padding-bottom: 1em !important;
-	font-size: 3em !important;
-	font-weight: bold !important;
-	color: white !important;
+	padding-bottom: 1em;
+	font-size: 3em;
+	font-weight: bold;
+	color: white !;
 }
 
-p { font-size: 1.50em !important;
-	padding-left: 3.5em !important;
-	padding-top: 0.75em !important;
-	padding-right: 3.5em !important;
-	padding-bottom: 1em !important;
-	color: white !important;
+p { font-size: 1.50em;
+	padding-left: 3.5em ;
+	padding-top: 0.75em ;
+	padding-right: 3.5em ;
+	padding-bottom: 1em ;
+	color: white;
 
 }
 .card-body {font-size: 0.70em !important;
@@ -177,11 +177,13 @@ h4 {margin-left: 4.6em;
 		 }
 
 
-       h1 {width: 100%; float: none !important;
-       	 font-size: 2em !important;
-       	 padding: none !important;
-       	 margin: 5px 10px 5px 10px
+       h1 {background-color: #F4C430;
 
+	color: black;
+	margin-top: 0.50em !important;
+
+	border-radius: 1.2em !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
        }
 
 	
