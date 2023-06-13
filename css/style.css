@@ -173,7 +173,7 @@ h4 {margin-left: 4.6em;
 		width: 100%;
 	}
 
-div p { font-size: none ;
+.container-fluid p { font-size: none ;
 	padding-left: 0em !important;
 	padding-top: 0em !important;
 	padding-right: 0em !important ;
