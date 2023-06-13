@@ -173,20 +173,17 @@ h4 {margin-left: 4.6em;
 		width: 100%;
 	}
 
-div p {float: none !important;
-	font-size: none;
-	padding-left: none;
-	padding-right: none;
-
-}
-
-
-
-	}
+p { font-size: 1.29em !important; ;
+	padding-left: 0em !important;
+	padding-top: 0em !important;
+	padding-right: 0em !important ;
+	padding-bottom: 1em ;
+	color: white;
+	
 
 
 	
-	}
+}
       
    
 
