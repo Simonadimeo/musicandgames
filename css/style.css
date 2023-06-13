@@ -166,15 +166,31 @@ h4 {margin-left: 4.6em;
 }
 
 
-@media screen and (max-widht: 768px)  {
+@media screen and (max-widht: 680px)  {
 
-       body {width: 100%;}
-       p {float: none; width: 100%; margin-right: 0; }
-	}
+	body {width: 100% !important}
+
+		 p {float: none; width: 100% !important; 
+		 	margin-right: none !important; 
+		 	font-size: 0.5em !important;
+
+		 }
 
 
-
-
-
+       h1 {width: 100%; float: none !important;
+       	 font-size: 2em !important;
+       	 padding: none !important;
+       	 margin: 5px 10px 5px 10px
 
        }
+
+	
+	
+	}
+      
+   
+
+
+
+
+      
