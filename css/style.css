@@ -44,7 +44,7 @@ h2 {margin-bottom: 1em !important;
 	padding-bottom: 1em;
 	font-size: 3em;
 	font-weight: bold;
-	color: #FFFFFF !important;
+	color: #FFF !important;
 }
 
 p { font-size: 1.50em;
@@ -171,11 +171,14 @@ h4 {margin-left: 4.6em;
 	.container-fluid {float: none; 
 		padding: none;
 		width: 100%;
-		
-
 	}
 
+div p {float: none !important;
+	font-size: none;
+	padding-left: none;
+	padding-right: none;
 
+}
 
 
 
