@@ -166,27 +166,31 @@ h4 {margin-left: 4.6em;
 }
 
 
-@media screen and (max-widht: 768px)  {
+@media (max-widht: 768px)  {
+
+/*imposta il layout smartphone */ 
 
 	.container-fluid {float: none; 
-		padding: none;
+	
 		width: 100%;
+		display: block;
 	}
 
-p { /*! font-size: 1.50em; */
+@media (max-widht: 768px)  {
+#text { font-size: 1.20em !important; 
 	/*! padding-left: 3.5em ; */
 	/*! padding-top: 0.75em ; */
 	/*! padding-right: 3.5em ; */
 	padding-bottom: 1em ;
 	color: white;
-}
+}}
 
 .card {/*! margin-left: 6em !important; */
 	/*! margin-right: 4em !important; */
 	/*! margin-top: 3em !important; */
 	border-radius: 2em !important;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-	display: inline-block !important;
+	display: block !important;
 	margin-bottom: 3em !important;
 	max-height: 0% !important;
 	max-width: 100% !important;	
@@ -197,6 +201,7 @@ p { /*! font-size: 1.50em; */
 	padding-right: 0.7em;
 	/*! padding-bottom: 1em ; */
 	color: white;
+
 }
 
 #button {text-align: center;
