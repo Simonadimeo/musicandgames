@@ -71,8 +71,8 @@ p { font-size: 1.50em !important;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 	display: inline-block !important;
 	margin-bottom: 3em !important;
-	max-width: 50%;
-	max-height: 50%;
+	max-width: 70%;
+	max-height: 40%;
 
 }
 .card-img-top {border-radius: 2em !important;
