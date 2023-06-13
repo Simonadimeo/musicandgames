@@ -164,3 +164,8 @@ h6 {text-align: center;}
 h4 {margin-left: 4.6em;
 	color: grey;
 }
+
+#viewport {max-width: 360px;
+	       max-height: 640px;
+
+}
