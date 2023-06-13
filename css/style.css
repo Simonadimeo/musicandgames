@@ -71,8 +71,8 @@ p { font-size: 1.50em !important;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 	display: inline-block !important;
 	margin-bottom: 3em !important;
-	max-height: 30%;
-	max-width: 40%;
+	max-height: 30% !important;
+	max-width: 40% !important;
 
 	
 
